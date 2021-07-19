@@ -3,7 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>Foxewedding - Beautiful Wedding Template</title>
+      <title>DIGIPARA</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Css -->
@@ -17,7 +17,9 @@
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
    </head>
-   <body id="main" >
+
+
+   <body id="animasi">
       <!-- Preloader -->
       <div class="loader">
          <!-- Preloader inner -->
@@ -30,13 +32,13 @@
       </div>
       <!-- End preloader-->
       <!--Wrapper-->
-      <div  class="wrapper ">
+      <div  class="wrapper">
          <!--Header-->
-         <header class="header default">
+         <header class="header default" >
             <div class="header-section">
                <!--Container-->
-               <div  class="container-fluid ">
-                  <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
+               <div  class="container-fluid" >
+                  <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5"  >
                      <a class=" navbar-brand navbar-logo scroll" href="#wrapper">
                      <img class="mb-0 logo-light" src="<?php echo base_url() ?>assets/assets/svg/logo-light.svg" alt="">
                      <img class="mb-0 logo-dark" src="<?php echo base_url() ?>assets/assets/svg/logo-dark.svg" alt="">
@@ -63,7 +65,7 @@
          </header>
          <!--End header-->
          <!--Hero section-->
-         <section class="gradient-overlay gradient-overlay-dark" >
+         <section class="animasi_1 gradient-overlay gradient-overlay-dark" data-rate="0.6" data-effect="zoom">
             <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/1.jpg" alt="">
             <div class="container" >
                <!--row-->
@@ -91,7 +93,7 @@
          </section>
          <!--End hero section-->
          <!--Date section-->
-         <section id="resto" class="main">
+         <section id="resto" >
             <div class="container spacer-double-lg" >
                <div class="row justify-content-lg-between align-items-center" data-rate="0.2" data-effect="zoom" data-func="custom_show">
                   <div class="col-md-6 mb-5 mb-md-0">
@@ -127,7 +129,7 @@
                                     l368.4115-214.6845c127.2958-74.1792,172.7084-240.1479,98.7059-367.5465C818.4728,161.3996,655.4992,118.375,528.4855,192.3897z" />
                               </mask>
                            </defs>
-                           <image mask="url(#mask)" width="981" height="885" xlink:href="assets/img/mask-lg.jpg" />
+                           <image mask="url(#mask)" width="981" height="885" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-lg.jpg" />
                            <g>
                               <path fill="none" stroke="#E35D5D" stroke-width="7" stroke-linecap="round" stroke-miterlimit="10" d="M747.8805,524.349
                                  c108.1955-68.637,139.1927-213.677,70.5558-321.8725S606.4696,62.2462,498.2741,130.8832l0,0" />
@@ -150,9 +152,9 @@
             </div>
          </section>
          <!--End date section-->
-         <section id="story" class=" bg-secondary spacer-one-top-lg main">
+         <section id="story" class="bg-secondary spacer-one-top-lg">
             <!--Container-->
-            <div class="container spacer-one-bottom-lg"  data-rate="0.2" data-effect="zoom" data-func="custom_show">
+            <div class="container spacer-one-bottom-lg" id="animasi_3">
                <!--Row-->
                <div class="row justify-content-center">
                   <div class="col">
@@ -181,7 +183,7 @@
                                        l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z" />
                                  </mask>
                               </defs>
-                              <image mask="url(#mask-small-1)" width="607" height="532" xlink:href="assets/img/mask-md.jpg" />
+                              <image mask="url(#mask-small-1)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg" />
                            </svg>
                         </div>
                      </div>
@@ -270,7 +272,7 @@
                                        l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z" />
                                  </mask>
                               </defs>
-                              <image mask="url(#mask-small-2)" width="607" height="532" xlink:href="assets/img/mask-md.jpg" />
+                              <image mask="url(#mask-small-2)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg" />
                            </svg>
                         </div>
                      </div>
@@ -313,7 +315,7 @@
                <div class="row">
                   <div class="col-md-6 col-lg-4 d-flex mb-4 mb-lg-0 display-state ">
                      <div class="card card-icon-2 card-body justify-content-between">
-                        <img class="bg-image" src="assets/img/1.jpg" alt="">
+                        <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/1.jpg" alt="">
                      </div>
                   </div>
                   <div class="col-md-6 col-lg-4 d-flex mb-4 mb-lg-0">
@@ -568,8 +570,8 @@
                <div class="col-lg-11 mx-lg-auto">
                   <div class="row justify-content-center card-gutters">
                      <div class="col-7 mb-3">
-                        <a href="assets/img/offset/large/1.jpg" class="popup-image hover-effect d-block">
-                           <img class="img-fluid" src="assets/img/offset/1.jpg" alt="">
+                        <a href="<?php echo base_url() ?>assets/assets/img/offset/large/1.jpg" class="popup-image hover-effect d-block">
+                           <img class="img-fluid" src="<?php echo base_url() ?>assets/assets/img/offset/1.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
                                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -590,8 +592,8 @@
                         </a>
                      </div>
                      <div class="col-5 align-self-end mb-3">
-                        <a href="assets/img/offset/large/2.jpg" class="popup-image hover-effect d-block">
-                           <img class="img-fluid" src="assets/img/offset/2.jpg" alt="">
+                        <a href="<?php echo base_url() ?>assets/assets/img/offset/large/2.jpg" class="popup-image hover-effect d-block">
+                           <img class="img-fluid" src="<?php echo base_url() ?>assets/assets/img/offset/2.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
                                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -612,8 +614,8 @@
                         </a>
                      </div>
                      <div class="col-5">
-                        <a href="assets/img/offset/large/3.jpg" class="popup-image hover-effect d-block">
-                           <img class="img-fluid" src="assets/img/offset/3.jpg" alt="">
+                        <a href="<?php echo base_url() ?>assets/assets/img/offset/large/3.jpg" class="popup-image hover-effect d-block">
+                           <img class="img-fluid" src="<?php echo base_url() ?>assets/assets/img/offset/3.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
                                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -634,8 +636,8 @@
                         </a>
                      </div>
                      <div class="col-3">
-                        <a href="assets/img/offset/large/4.jpg " class="popup-image hover-effect d-block">
-                           <img class="img-fluid" src="assets/img/offset/4.jpg" alt="">
+                        <a href="<?php echo base_url() ?>assets/assets/img/offset/large/4.jpg " class="popup-image hover-effect d-block">
+                           <img class="img-fluid" src="<?php echo base_url() ?>assets/assets/img/offset/4.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
                                  <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -656,8 +658,8 @@
                         </a>
                      </div>
                      <div class="col-3">
-                        <a href="assets/img/offset/large/5.jpg" class="popup-image hover-effect d-block">
-                           <img class="img-fluid" src="assets/img/offset/5.jpg" alt="">
+                        <a href="<?php echo base_url() ?>assets/assets/img/offset/large/5.jpg" class="popup-image hover-effect d-block">
+                           <img class="img-fluid" src="<?php echo base_url() ?>assets/assets/img/offset/5.jpg" alt="">
                            <span class="hover-effect-container">
                               <span class="hover-effect-icon has-svg">
                                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -898,7 +900,7 @@
                                     l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z"></path>
                               </mask>
                            </defs>
-                           <image mask="url(#mask-middle-1)" width="607" height="532" xlink:href="assets/img/mask-md.jpg"></image>
+                           <image mask="url(#mask-middle-1)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg"></image>
                         </svg>
                      </div>
                         <div class=" mt-4">
@@ -918,7 +920,7 @@
                                     l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z"></path>
                               </mask>
                            </defs>
-                           <image mask="url(#mask-middle-2)" width="607" height="532" xlink:href="assets/img/mask-md.jpg"></image>
+                           <image mask="url(#mask-middle-2)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg"></image>
                         </svg>
                      </div>
                         <div class=" mt-4">
@@ -1139,7 +1141,7 @@
                <!--End row-->
                <div class="row text-center">
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/1.jpg" alt="Image" class=" rounded img-fluid">
+                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/1.jpg" alt="Image" class=" rounded img-fluid">
                      <div class="badge-overlap">
                         <span class="badge">Venue</span>
                      </div>
@@ -1151,7 +1153,7 @@
                      <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
                   </div>
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/2.jpg" alt="" class="rounded img-fluid">
+                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/2.jpg" alt="" class="rounded img-fluid">
                      <div class="badge-overlap">
                         <span class="badge">Accommodation</span>
                      </div>
@@ -1163,7 +1165,7 @@
                      <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
                   </div>
                   <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="assets/img/accommodation/3.jpg" alt="" class="rounded img-fluid">
+                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/3.jpg" alt="" class="rounded img-fluid">
                      <div class="badge-overlap ">
                         <span class="badge">After Party</span>
                      </div>
@@ -1181,7 +1183,7 @@
          </section>
          <!--Hero section-->
          <section class="gradient-overlay ">
-            <img class="bg-image" src="assets/img/2.jpg" alt="">
+            <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/2.jpg" alt="">
             <div class="container">
                <!--row-->
                <div class="row  min-vh-80 align-items-center z-index-2 position-relative text-center">
@@ -1218,39 +1220,23 @@
                <!--row-->
                <div class="row justify-content-center">
                   <div class="col-md-4">
-                     <div class="signature mb-3">
-                       <h6 class="text-primary">Put your own signature here</h6>
-                     </div>
-                     <p class="text-dark">Friendship... is not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.</p>
                   </div>
                   <div class="col-md-3">
-                     <h6 class="text-uppercase font-weight-600 font-size-15 mb-4 upper-letter-space">Instagram</h6>
-                     <ul class="instafeed-list list-inline mb-3" id="instafeed"></ul>
                   </div>
                   <div class="col-md-4">
-                     <h6 class="text-uppercase font-weight-600 font-size-15 mb-4 upper-letter-space">Newsletter</h6>
-                     <p class="text-dark">Wedding news, articles, and resources, directly to your inbox each month.</p>
-                     <div>
-                        <form method="post">
-                           <div class="input-group mb-2">
-                              <input type="email" class="form-control" name="email" placeholder="Your email">
-                           </div>
-                           <button type="submit" class="btn btn-primary w-100">
-                           Subscribe
-                           </button>
-                        </form>
-                        <small class="text-dark-gray opacity-8 mt-2">We don't share your information. <a href="#">Privacy Policy</a>
+                     <h6 class="text-uppercase font-weight-600 font-size-15 mb-4 upper-letter-space">&copy; copyright</h6>
+                     
+                        <small class="text-dark-gray opacity-8 mt-2">2019 all right reserved <a href="#">digipara</a>
                         </small>
-                     </div>
                   </div>
                </div>
                <!--End row-->
             </div>
             <!--End container-->
          </footer>
-         <section class="footer-copyright spacer-double-sm bg-white text-center">
+         <!-- <section class="footer-copyright spacer-double-sm bg-white text-center">
             <p class="text-uppercase small text-muted mb-0">&copy; 2019 all right reserved - a product of mutationthemes.</p>
-         </section>
+         </section> -->
          <!--To the top-->
          <a class="scroll-to-top scroll" href="#wrapper">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
@@ -1278,7 +1264,7 @@
 
       <script type="text/javascript" src="<?php echo base_url() ?>assets/scrolling-animation/jquery.parallax.js"></script>
       <script type="text/javascript">
-         $('#main').parallax({mode:1});
+         $('#animasi').parallax({mode:1});
          function custom_show(obj, mode) {
             obj.children().addClass('animation animation_'+mode);
          }
