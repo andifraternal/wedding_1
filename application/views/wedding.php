@@ -16,6 +16,7 @@
       <link href="<?php echo base_url() ?>assets/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
    </head>
 
 
@@ -52,8 +53,8 @@
                            <li><a class=" nav-link scroll" href="#story">Love Story</a></li>
                            <li><a class=" nav-link scroll" href="#wedding">Wedding</a></li>
                            <li><a class=" nav-link scroll" href="#gallery">Gallery</a></li>
-                           <li><a class=" nav-link scroll" href="#gift">Gift Registry</a></li>
-                           <li><a class=" nav-link scroll" href="#friends">Friends</a></li>
+                           <!-- <li><a class=" nav-link scroll" href="#gift">Gift Registry</a></li> -->
+                           <!-- <li><a class=" nav-link scroll" href="#friends">Friends</a></li> -->
                            <li><a class=" nav-link scroll" href="#rsvp">Rsvp</a></li>
                            <li><a class=" nav-link scroll" href="#location">Location</a></li>
                         </ul>
@@ -683,188 +684,7 @@
                </div>
             </div>
             <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-primary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
-<g>
-</g>
-<g>
-   <path d="M2560,0c0,0-219.6543,165.951-730.788,124.0771c-383.3156-31.4028-827.2138-96.9514-1244.7139-96.9514
-      c-212.5106,0-439,3.5-584.4982,1.5844l0,139.9126h2560V0z"></path>
-</g>
-</svg>
-            </div>
-         </section>
-         <section id="gift" class=" bg-primary">
-            <div class="container spacer-double-lg">
-               <div class="row justify-content-between z-index-3 position-relative align-items-center">
-                  <div class="col-md-6 mb-3 mb-md-0">
-                     <h1 class="display-4 text-white">Gift Registry</h1>
-                     <p class="lead text-white mb-0">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occae. </p>
-                  </div>
-                  <div class="col-md-5">
-                     <small class="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Where to Register</small>
-                     <ul class="d-flex flex-wrap list-unstyled">
-                        <li class="mr-4 mb-5 ">
-                           <svg class="icon-logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 169 36" enable-background="new 0 0 169 36;" xml:space="preserve">
-                              <g>
-                                 <path d="M30.4,30.7v3.5c0,0.7-0.6,1.4-1.4,1.3l-26.8,0c-0.7,0-1.4-0.6-1.3-1.4c0,0,0-3.8,0-4c0-0.3,0.1-0.6,0.4-0.9L20.4,7.9H1.1
-                                    c-0.7,0-1.4-0.6-1.3-1.3l0-3.6c0-0.7,0.6-1.4,1.4-1.3l26.8,0c0.7,0,1.4,0.6,1.3,1.4c0,0,0,3.3,0,3.8c0,0.4-0.1,0.7-0.4,1L9.8,29.4
-                                    H29C29.8,29.4,30.4,30,30.4,30.7" />
-                                 <path d="M62.5,36c-9.6-0.1-17.4-7.9-17.3-17.6C45.3,8.8,53.1,1,62.8,1.1C72.4,1.2,80.2,9,80.1,18.7C80,28.3,72.2,36.1,62.5,36
-                                    M62.7,7.6c-6,0-10.9,4.8-11,10.8c0,6,4.8,10.9,10.8,11c6,0,10.9-4.8,11-10.8C73.6,12.6,68.7,7.7,62.7,7.6" />
-                                 <path d="M119.6,30.2v4.5c0,0.5-0.5,0.9-1.1,0.9H99.8c-0.5,0-0.9-0.4-0.9-0.9V2.5c0-0.5,0.6-0.9,1.1-0.9h4.6c0.5,0,0.9,0.4,0.9,0.9
-                                    v26.7h13.1C119.1,29.3,119.6,29.7,119.6,30.2" />
-                                 <path d="M168,35.6h-4.9c-0.4,0-0.7-0.2-0.9-0.6l-2.9-6.8h-15.9l-3.1,6.9c-0.1,0.4-0.5,0.6-0.9,0.6h-5c-0.7,0-1.2-0.7-0.9-1.4
-                                    l14.6-31.9c0.2-0.4,0.5-0.6,0.8-0.6c1,0,4.6,0,5.1,0c0.4,0,0.7,0.3,0.8,0.6l14,31.9C169.2,34.9,168.7,35.6,168,35.6 M156.6,21.9
-                                    l-5.1-11.5l-5.2,11.5H156.6z" />
-                              </g>
-                           </svg>
-                        </li>
-                        <li class="mr-4 mb-5 ">
-                           <svg class="icon-logo-svg " version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 754.2 235.2" enable-background="new 0 0 754.2 235.2;" xml:space="preserve">
-                              <path class="st0" fill="#FFFFFF;" d="M0.2,146.1h40.9c18.6,0,37.7,4.1,37.7,24.3c0,7.7-4.2,15.3-12.6,17.7v0.7
-                                 c10.5,3.3,17.1,10.3,17.1,20.8c0,18-18.4,24.2-35.3,24.2H0.2V146.1 M36,179.8c5.2,0,10.9-0.5,10.9-6.5c0-6.5-6.6-6.1-11.7-6.1h-2.4
-                                 v12.6H36z M32.8,212.9h3.9c5.8,0,14.1-0.1,14.1-7.3c0-7.3-8.9-7.2-14.6-7.2h-3.4V212.9z M88.9,146.1v87.7h71.9v-24h-33.4v-8.6h29.5
-                                 v-22.8h-29.5V170h32.3v-23.9L88.9,146.1 M209.4,146.1h-48.7L202,196v37.8h42.1V196l40.5-49.9h-48.4l-8.5,14.6
-                                 c-1.5,2.7-2.6,5.5-3.9,8.3h-1.3L209.4,146.1 M406.4,190.2c0,28.2-31.6,45-70.3,45c-38.8,0-70.3-16.8-70.3-45
-                                 c0-27.6,31.7-45.5,70.3-45.5C374.6,144.7,406.4,162.6,406.4,190.2 M312.3,190.6c0,10,9.8,16.9,23.8,16.9c14,0,23.8-6.9,23.8-16.9
-                                 c0-9.3-9.1-17.1-23.8-17.1C321.3,173.5,312.3,181.3,312.3,190.6z M556.3,146.1h73c66.2,0,117,12.9,117,45.1
-                                 c0,26-41.3,42.6-99.2,42.6h-90.8L556.3,146.1 M628,207.5h4.5c23.8,0,42.1-4.9,42.1-16.4c0-12.3-16-17.5-42.1-17.5H628V207.5z
-                                 M730.7,147c0-6.5,5.1-11.7,11.7-11.7c6.6,0,11.7,5.2,11.7,11.7c0,6.5-5.2,11.7-11.7,11.7C735.9,158.7,730.7,153.5,730.7,147
-                                 M752.4,147c0-5.5-4.5-9.9-9.9-9.9c-5.4,0-9.9,4.4-9.9,9.9c0,5.5,4.5,9.9,9.9,9.9C747.9,156.9,752.4,152.6,752.4,147z M748,153.3
-                                 h-2.1l-3.9-5.9h-2.1v5.9h-1.8v-12.8h5.6c2.3,0,4.5,0.6,4.5,3.4c0,2.5-1.7,3.4-4,3.5L748,153.3z M742,145.7c1.6,0,4.4,0.3,4.4-1.7
-                                 c0-1.3-1.7-1.6-3.1-1.6h-3.4v3.3L742,145.7L742,145.7z M459.5,146.1H412v87.7h47.3v-44.6l41.9,44.6h47.2v-87.7h-47.2v45.4
-                                 L459.5,146.1 M0,4.9h14.2c21.8,0,42.5,5.7,42.5,31.9c0,8.5-4.6,18.3-12.5,22v0.3C57.9,61.6,67.5,75,67.5,88.6
-                                 c0,23.3-19.8,32.5-40.4,32.5H0V4.9 M14.5,56.4h3.6c13.8,0,25-2.8,25-19.4c0-16.3-11.1-19.1-24.6-19.1h-4
-                                 C14.5,17.9,14.5,56.4,14.5,56.4z M14.5,108.1h11c13.4,0,27.4-4,27.4-20.5c0-16.3-16.6-19.7-29.5-19.7h-8.9
-                                 C14.5,67.9,14.5,108.1,14.5,108.1z M75.9,4.9v116.1h62.4v-13.2H90.4V63.9H137V50.7H90.4V18.2h47.9V4.9H75.9 M151.9,4.9h24
-                                 c35.6,0,65.2,18.8,65.2,57.5c0,39.6-29,58.7-65.6,58.7h-23.6L151.9,4.9 M166.4,107.8h5.1c29.6,0,55.2-11.1,55.2-44.8
-                                 c0-33.9-25.6-44.8-55.2-44.8h-5.1C166.4,18.2,166.4,107.8,166.4,107.8z M281.8,4.9H296c21.9,0,42.6,5.7,42.6,31.9
-                                 c0,8.5-4.6,18.3-12.5,22v0.3c13.7,2.5,23.2,15.9,23.2,29.4c0,23.3-19.8,32.5-40.4,32.5h-27.1V4.9 M296.3,56.4h3.7
-                                 c13.7,0,25-2.8,25-19.4c0-16.3-11.1-19.1-24.7-19.1h-4L296.3,56.4L296.3,56.4z M296.3,108.1h11.1c13.4,0,27.4-4,27.4-20.5
-                                 c0-16.3-16.7-19.7-29.6-19.7h-8.9C296.3,67.9,296.3,108.1,296.3,108.1z M377.3,91.9L364,121.1h-15.5L403.9,0l55.4,121.1h-15.5
-                                 l-13.3-29.1L377.3,91.9 M403.9,31.7l-20.7,47h41.3L403.9,31.7z M485,121.1V18.2h27.6V4.9h-69.6v13.2h27.6v102.9H485 M590.1,51.7
-                                 h-55.3V4.9h-14.5v116.1h14.5V65.3h55.3v55.7h14.5V4.9h-14.5V51.7 M712.8,105.4c-8.8,10.3-21,18.2-34.8,18.2
-                                 c-19.5,0-35.6-14.2-35.6-34.2c0-14.8,9.2-22.8,20.3-30.8l7.3-5.2c-6.6-7-12.8-15.6-12.8-25.4c0-16,11.6-25.4,26.8-25.4
-                                 c14.2,0,26.8,8.9,26.8,24.2c0,13.1-11.3,21.9-21.1,28.9l24.2,29.3l13.5-15.7l9.2,9.5l-14.2,16.7l20.8,25.7h-17.9L712.8,105.4
-                                 M677.1,64.7c-8,5.5-21.1,13.4-21.1,24.5c0,11.1,10.4,21.4,21.6,21.4c10.8,0,19.4-8.2,26.6-15.4l-25.7-31.4L677.1,64.7z M683.4,44.4
-                                 c5.8-4.6,13.9-9.4,13.9-17.8c0-8.2-5.8-12.7-13.5-12.7c-6.9,0-13,5-13,12.3c0,5.8,3.6,10.2,7,14.5l3.9,4.9L683.4,44.4z" />
-                           </svg>
-                        </li>
-                        <li class="mr-4 mb-5 ">
-                           <svg class=" icon-logo-svg " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 128 36" enable-background="new 0 0 128 36;" xml:space="preserve">
-                              <g>
-                                 <polygon points="14.2,1.2 10.9,11.5 0,11.5 8.8,17.8 5.5,28.1 14.2,21.8 23,28.1 19.7,17.8 28.4,11.5 17.6,11.5  " />
-                                 <g>
-                                    <path d="M59,10.6c-0.7-0.7-1.4-1.2-2.3-1.4c-0.9-0.3-1.9-0.5-3-0.5c-1.1,0-2.1,0.2-3.1,0.6c-1,0.4-1.8,1-2.5,1.7l-0.1,0.1
-                                       c-0.3,0.4-0.6,0.8-0.9,1.2c-0.2,0.4-0.4,0.7-0.5,1c-0.1-0.2-0.2-0.5-0.4-0.9c-0.3-0.6-0.6-1.1-0.9-1.3C44.8,10.3,44,9.8,43,9.4
-                                       c-1-0.4-2-0.6-3.3-0.6c-0.8,0-1.9,0.1-3.1,0.7c-1.4,0.7-2.5,1.7-3.3,3.3V9.2h-1.1v19.2h1.1V17.5c0-1.2,0.1-2.3,0.4-3.3
-                                       c0.3-1,0.7-1.7,1.3-2.4c0.5-0.7,1.2-1.2,2-1.5c0.8-0.4,1.7-0.6,2.6-0.5c1.1,0.1,2,0.2,2.9,0.6c0.8,0.4,1.5,1,2,1.6
-                                       c0.5,0.7,0.8,1.2,1,1.9c0.3,0.8,0.4,1.8,0.4,3.1v11.3h1.1V17.6c0-1.3,0.1-2.4,0.3-3.3c0.2-0.9,0.6-1.5,1.2-2.4
-                                       c0.6-0.8,1.3-1.3,2.3-1.7c0.8-0.3,1.7-0.5,2.6-0.5c1,0,1.8,0.1,2.5,0.4c0.8,0.3,1.3,0.7,1.9,1.2c0.7,0.7,1.2,1.5,1.4,2.5
-                                       c0.3,1,0.5,2.2,0.5,3.7v10.7h1.1l0.2-10.8c0-1.6-0.2-3-0.6-4.1C60.2,12.3,59.7,11.3,59,10.6z" />
-                                    <path d="M80.7,14.1c-0.6-1.3-1.7-2.7-3.1-3.6c-1.7-1.2-3.7-1.7-5.8-1.7c-3.8,0-6.2,1.7-7.5,3.2c-1.6,1.8-2.6,4.3-2.6,6.8
-                                       c0,2.5,1,5,2.6,6.8c1.3,1.4,3.7,3.2,7.5,3.2c2,0,3.7-0.5,5.3-1.4c1.5-1,2.7-2.2,3.6-3.9v4.8h1.1V9.3h-1.1L80.7,14.1L80.7,14.1z
-                                       M80.1,15.2c0.2,0.5,0.4,1,0.5,1.6c0.1,0.6,0.2,1.2,0.2,1.7c0.1,0.6,0,1.2-0.1,1.7c-0.1,0.6-0.2,1.2-0.4,1.6
-                                       c-0.6,1.8-1.7,3.3-3.2,4.3c-1.4,1-3.3,1.6-5.1,1.6c-2.8,0-5.1-1-6.7-2.8c-1.4-1.6-2.3-3.9-2.3-6.2c0-2.5,1-4.8,2.6-6.5
-                                       c1.7-1.6,3.9-2.6,6.4-2.6c1.8,0,3.6,0.5,5,1.4C78.3,12.2,79.5,13.6,80.1,15.2z M80.9,14.8L80.9,14.8L80.9,14.8L80.9,14.8z" />
-                                    <path d="M86,12.1c1-0.9,2-1.5,3-1.9c1-0.4,2.1-0.6,3.4-0.6h0.1c1.6,0,3.3,0.5,4.7,1.3c1.6,1,2.9,2.5,3.5,4.3l0.1,0.1h1.2l-0.1-0.2
-                                       c-0.8-2.2-2.2-3.9-4.1-5.1c-1.6-1-3.5-1.4-5.4-1.4c-2.8,0-5.3,1-7.2,2.9s-2.9,4.4-2.9,7.2c0,2.6,1,5.1,2.6,6.9
-                                       c1.9,2,4.5,3.1,7.6,3.1c2,0,4.1-0.6,5.7-1.8c1.6-1.1,2.9-2.7,3.6-4.6l0.1-0.2h-1.2l-0.1,0.1c-0.5,1.4-1.5,2.7-2.8,3.7
-                                       c-1.5,1.2-3.5,1.8-5.5,1.8c-1.2,0-2.3-0.2-3.4-0.7c-1.1-0.5-2-1.1-2.9-1.9c-0.9-0.9-1.5-1.8-2-3c-0.5-1.1-0.7-2.3-0.7-3.6
-                                       s0.3-2.5,0.7-3.7C84.6,13.9,85.3,12.9,86,12.1z M98.9,12.1c0.9,0.8,1.6,1.9,2,3.1l0,0C100.5,14,99.8,13,98.9,12.1z" />
-                                    <path d="M117.5,9.2h-1.2l-0.1,0.1c0,0.1-1.9,4.4-3.7,8.8l-3.7,8.6l-3.5-8.6c-2.2-5.7-3.5-8.8-3.5-8.8l-0.1-0.1h-1.2l7.6,19.1
-                                       l-3.4,7.7h1.2l0.1-0.1c0,0,0.1-0.2,0.2-0.6c0.6-1.3,2.2-5,4-9.2c0.5-1.1,1-2.2,1.5-3.4l4.5-10.4c0.8-1.8,1.2-2.9,1.2-3L117.5,9.2z
-                                       " />
-                                    <path d="M126.1,19.1c-1-0.8-2.3-1.2-3.6-1.4l-0.1-0.1c-1.5-0.4-2.4-0.9-3.1-1.3c-0.7-0.6-1.1-1.4-1.2-2.5c0-0.5,0.1-1,0.2-1.5
-                                       c0.1-0.5,0.4-0.9,0.8-1.2c0.4-0.4,0.9-0.7,1.3-1c0.6-0.2,1.2-0.3,1.8-0.3h0.1c0.6,0,1.1,0.1,1.5,0.3c0.5,0.2,0.9,0.5,1.2,0.8
-                                       c0.3,0.3,0.6,0.8,0.8,1.2c0.2,0.5,0.3,1,0.3,1.6v0.1h1.1v-0.1c0-1.4-0.5-2.6-1.4-3.5c-0.9-0.9-2.2-1.3-3.7-1.3
-                                       c-1.3,0-2.6,0.4-3.6,1.2c-1.1,0.9-1.6,2.2-1.6,3.8c0.1,1.5,0.6,2.6,1.5,3.4c1,0.8,2.3,1.2,3.7,1.6c1.6,0.4,2.8,0.9,3.5,1.6
-                                       c0.8,0.8,1.1,1.7,1.2,3v0.1c0,0.6-0.1,1.2-0.3,1.7c-0.2,0.5-0.5,1-1,1.4c-0.4,0.4-0.9,0.8-1.4,1c-0.6,0.2-1.2,0.3-1.8,0.3
-                                       c-1.4,0-2.6-0.4-3.5-1.2c-0.9-0.9-1.3-2-1.3-3.4V23l-1.1,0.1v0.2c0,0.1,0,0.1,0,0.1c0,0.7,0.1,1.3,0.4,1.9c0.2,0.6,0.6,1.2,1,1.6
-                                       c0.6,0.6,1.2,1,2,1.3c0.8,0.3,1.6,0.5,2.5,0.5c0.8,0,1.6-0.2,2.3-0.5c0.7-0.3,1.3-0.8,1.9-1.3c0.5-0.5,0.9-1.2,1.2-1.8
-                                       c0.3-0.7,0.4-1.4,0.3-2.2C127.9,21.2,127.3,19.9,126.1,19.1z" />
-                                    <polygon points="116.9,7.8 118.2,6.8 119.5,7.8 119,6.2 120.3,5.3 118.7,5.3 118.2,3.8 117.7,5.3 116.2,5.3 117.4,6.2    " />
-                                 </g>
-                              </g>
-                           </svg>
-                        </li>
-                        <li class="mr-4 mb-5 ">
-                           <svg class="icon-logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 169 36" enable-background="new 0 0 169 36;" xml:space="preserve">
-                              <g>
-                                 <path d="M18,24.1c3.4,0,6.2-2.8,6.2-6.2c0-3.4-2.8-6.2-6.2-6.2c-3.4,0-6.2,2.8-6.2,6.2C11.8,21.4,14.6,24.1,18,24.1L18,24.1z
-                                    M18,30c6.6,0,12-5.4,12-12c0-6.6-5.4-12-12-12c-6.6,0-12,5.4-12,12C6.1,24.6,11.4,30,18,30L18,30z M0,18C0,8.1,8.1,0,18,0
-                                    c10,0,18,8.1,18,18c0,10-8.1,18-18,18C8.1,36.1,0,28,0,18L0,18z" />
-                                 <polygon points="41.9,5.1 62.5,5.1 62.5,10.3 55.4,10.3 55.4,31.1 49.1,31.1 49.1,10.3 41.9,10.3 41.9,5.1   " />
-                                 <path d="M93.4,10.3h-5.8v5.2c0,0,4.5,0,5.2,0c1.8,0,3.2-0.8,3.2-2.6C96,11,94.8,10.3,93.4,10.3L93.4,10.3z M81.7,5.1
-                                    c0,0,4.7,0,12.2,0c6.9,0,7.9,4.7,7.9,7.5c0,4-3.5,6-3.8,6.1c0,0,3,1.1,3,4.6v4.8c0,1.9,1.2,2.5,1.4,2.9h-5
-                                    c-2.4-0.3-2.3-2.1-2.3-3.2v-4.2c-0.1-1-0.4-2.2-2.5-2.2h-5v9.6h-6L81.7,5.1L81.7,5.1z" />
-                                 <polygon points="128.3,5.1 128.3,31.1 147,31.1 147,25.7 134.4,25.7 134.4,19.9 145.1,19.9 145.1,15 134.4,15 134.4,10.3 147,10.3 
-                                    147,5.1 128.3,5.1   " />
-                                 <polygon points="147.9,10.3 155.3,10.3 155.3,31.1 161.4,31.1 161.4,10.3 168.9,10.3 168.9,5.1 147.9,5.1 147.9,10.3   " />
-                                 <path d="M69,14.3L66.8,21h4.6L69,14.3L69,14.3z M65.5,5.1h6.7l9.1,26h-6.5l-1.9-5.4h-7.7l-1.8,5.4h-6.4L65.5,5.1L65.5,5.1z" />
-                                 <path d="M126.1,16.6H115v5h5.3c0,1,0.2,2.1-1.1,3.5c-0.4,0.5-1.9,1.6-3.9,1.6c-1.7,0-2.9-0.5-4-1.4c-2.4-2-2.9-5.7-2.9-7.7
-                                    c0-2.5,1-8.6,7-8.8c0,0,4.1-0.3,5.1,4.6h5.6C126,11,123.1,4,115.3,4c-2.7,0-6.1,0.8-8.9,3.6c-2,2-3.9,5.5-3.9,10.3
-                                    c0,5.2,1.9,8.6,3.7,10.5c3.1,3.3,6.2,3.5,7.8,3.5c1.3,0,3.7-0.2,6.9-2.3l0.8,1.5h4.2V16.6L126.1,16.6z" />
-                                 <path d="M164.3,29.3h0.3c0.2,0,0.4,0,0.4-0.3c0-0.2-0.2-0.2-0.4-0.2h-0.3V29.3L164.3,29.3z M163.9,28.6h0.7c0.5,0,0.7,0.1,0.7,0.5
-                                    c0,0.3-0.2,0.5-0.5,0.5l0.5,0.8h-0.4l-0.4-0.8h-0.2v0.8h-0.4V28.6L163.9,28.6z M164.6,30.8c0.7,0,1.2-0.5,1.2-1.3
-                                    c0-0.7-0.6-1.3-1.2-1.3c-0.7,0-1.2,0.5-1.2,1.3C163.3,30.2,163.9,30.8,164.6,30.8L164.6,30.8z M164.6,27.9c0.9,0,1.7,0.6,1.7,1.6
-                                    c0,1-0.8,1.6-1.7,1.6c-0.9,0-1.7-0.6-1.7-1.6C162.9,28.5,163.7,27.9,164.6,27.9L164.6,27.9z" />
-                              </g>
-                           </svg>
-                        </li>
-                        <li class="mr-4 mb-5">
-                           <svg class=" icon-logo-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 180 36" enable-background="new 0 0 180 36;" xml:space="preserve">
-                              <style type="text/css">
-                              </style>
-                              <g id="g11" transform="matrix(1.25,0,0,-1.25,-386.73125,784.70936)">
-                                 <path id="path39" class="st0" fill="#FFFFFF;" d="M323.6,622.6l0-4.5c-0.1,0-0.3-0.1-0.3,0c-1.1,2.7-1.9,4-5.1,4h-0.4v-14c0-0.7,0.1-1.2,0.4-1.5
-                                    c0.2-0.2,1.1-0.3,1.9-0.3c0,0,0-0.4,0-0.4h-6.9c0,0,0,0.4,0,0.4c0.7,0,1.6,0.1,1.9,0.3c0.4,0.3,0.4,0.8,0.4,1.5v14h-0.4
-                                    c-3.2,0-4.1-1.4-5.1-4c0,0-0.3,0-0.3,0l0,4.5H323.6" />
-                                 <path id="path41" class="st0" fill="#FFFFFF;" d="M327.8,608c0-0.6-0.1-1.2-0.4-1.4c-0.3-0.2-0.8-0.3-1.6-0.3c0,0,0-0.4,0-0.4h6.3c0,0,0,0.4,0,0.4
-                                    c-0.8,0-1.4,0.1-1.6,0.3c-0.3,0.3-0.4,0.8-0.4,1.4v9c0,0.6,0.1,1.2,0.4,1.4c0.3,0.2,0.8,0.3,1.6,0.3c0,0,0,0.4,0,0.4h-6.3
-                                    c0,0,0-0.4,0-0.4c0.8,0,1.4-0.1,1.6-0.3c0.3-0.3,0.4-0.8,0.4-1.4V608" />
-                                 <path id="path43" class="st0" fill="#FFFFFF;" d="M344.4,619.1h-9.8c0,0,0-0.4,0-0.4c0.7,0,1.3-0.1,1.5-0.3c0.3-0.3,0.4-0.8,0.4-1.4v-9
-                                    c0-0.6-0.1-1.2-0.4-1.4c-0.2-0.2-0.8-0.3-1.5-0.3c0,0,0-0.4,0-0.4h6.2c0,0,0,0.4,0,0.4c-0.8,0-1.5,0.1-1.8,0.3
-                                    c-0.3,0.3-0.4,0.8-0.4,1.4v4.3h1c1,0,1.5-0.2,1.9-0.5c0.4-0.3,0.6-0.8,0.6-1.4c0,0,0.2-0.1,0.3,0v4.2c-0.1,0-0.3,0-0.3,0
-                                    c0-0.5-0.3-1.1-0.6-1.4c-0.4-0.3-0.9-0.5-1.9-0.5h-1v5.9h1.2c3,0,3.9-1.4,4.3-3.1c0,0,0.3,0,0.3,0L344.4,619.1" />
-                                 <path id="path45" class="st0" fill="#FFFFFF;" d="M356.3,619.1h-9.8c0,0,0-0.4,0-0.4c0.7,0,1.3-0.1,1.5-0.3c0.3-0.3,0.4-0.8,0.4-1.4v-9
-                                    c0-0.6-0.1-1.2-0.4-1.4c-0.2-0.2-0.8-0.3-1.5-0.3c0,0,0-0.4,0-0.4h6.2c0,0,0,0.4,0,0.4c-0.8,0-1.5,0.1-1.8,0.3
-                                    c-0.3,0.3-0.4,0.8-0.4,1.4v4.3h1c1,0,1.5-0.2,1.9-0.5c0.4-0.3,0.6-0.8,0.6-1.4c0,0,0.2-0.1,0.3,0v4.2c-0.1,0-0.3,0-0.3,0
-                                    c0-0.5-0.3-1.1-0.6-1.4c-0.4-0.3-0.9-0.5-1.9-0.5h-1v5.9h1.2c3,0,3.9-1.4,4.3-3.1c0,0,0.3,0,0.3,0L356.3,619.1" />
-                                 <path id="path47" class="st0" fill="#FFFFFF;" d="M360.3,611l2,5.5l2-5.5H360.3 M369.6,606.3c-1,0.1-1.4,0.5-1.9,1.7l-4.2,11.4c0,0-0.6,0-0.6,0
-                                    l-4.1-11.1c-0.6-1.5-1-1.7-2.3-2c0,0,0-0.4,0-0.4h4c0,0,0,0.4,0,0.4c-1.2,0.1-1.7,0.5-1.1,2l0.8,2.3h4.3l0.9-2.4
-                                    c0.5-1.2,0-1.8-1.2-1.9c0,0,0-0.4,0-0.4h5.4C369.6,605.9,369.6,606.3,369.6,606.3" />
-                                 <path id="path49" class="st0" fill="#FFFFFF;" d="M383.8,619.1h-4.6c0,0,0-0.4,0-0.4c1-0.1,1.5-0.2,1.7-0.6c0.3-0.5,0.4-1.4,0.4-2.5v-6.2l-7.4,9.7
-                                    h-3.8c0,0,0-0.4,0-0.4c1.4,0,2.1-0.8,2.1-1.9v-7.4c0-1.1-0.1-1.9-0.4-2.4c-0.3-0.4-0.5-0.5-1.5-0.6c0,0,0-0.4,0-0.4h4.6
-                                    c0,0,0,0.4,0,0.4c-1,0.1-1.5,0.2-1.7,0.6c-0.3,0.5-0.4,1.3-0.4,2.4v7.6l8.7-11.1c0.1-0.1,0.5-0.1,0.5,0v9.8c0,1.1,0.1,2,0.4,2.5
-                                    c0.3,0.4,0.5,0.5,1.5,0.6C383.8,618.7,383.8,619.1,383.8,619.1" />
-                                 <path id="path51" class="st0" fill="#FFFFFF;" d="M397.2,619.1h-4c0,0,0-0.4,0-0.4c1.2,0,1.6-0.5,1.2-1.4l-2.6-4.9l-2.9,5c-0.4,0.8,0.1,1.3,1.3,1.3
-                                    c0,0,0,0.4,0,0.4h-5.5c0,0,0-0.4,0-0.4c1-0.1,1.3-0.3,1.8-1.2l3.4-6V608c0-0.6-0.1-1.2-0.4-1.4c-0.2-0.2-0.8-0.3-1.6-0.3
-                                    c0,0,0-0.4,0-0.4h6.1c0,0,0,0.4,0,0.4c-0.7,0-1.3,0.1-1.6,0.3c-0.3,0.3-0.4,0.8-0.4,1.4v3.9l3,5.5c0.5,0.9,1.1,1.2,2.1,1.3
-                                    C397.2,618.7,397.2,619.1,397.2,619.1" />
-                                 <path id="path53" class="st0" fill="#FFFFFF;" d="M402.7,610.5c0,1.7,0.8,2.9,2.3,3.6l4.3-5.6c-1-1-2.2-1.5-3.3-1.5
-                                    C404.1,606.9,402.7,608.3,402.7,610.5 M407.1,621c1.2,0,1.9-0.9,1.9-2.4c0-1.3-1-2.8-2.5-3.4c-1.1,1.5-1.4,2.5-1.4,3.4
-                                    C405.1,620.3,405.9,621,407.1,621 M415.7,614.1h-5.3c0-0.1,0-0.3,0-0.3c1.3,0,1.9-0.6,1.4-1.6c-0.4-0.8-0.8-1.5-1.3-2.2l-3.8,4.9
-                                    c2.3,1.1,3.5,2.2,3.5,4c0,1.3-1.3,2.7-3.3,2.7c-2,0-3.8-1.6-3.8-3.5c0-1.2,0.4-2,1.5-3.6c-2.3-0.8-4.3-2.6-4.3-4.7
-                                    c0-2.4,1.9-4.1,4.4-4.1c1.9,0,3.5,1,4.8,2.4l1.6-2.1h4.1c0,0,0,0.4,0,0.4c-0.7,0-1,0.1-1.4,0.3c-0.6,0.3-1,0.7-1.6,1.4l-1.2,1.6
-                                    c0.7,0.9,1.3,2,2,2.9c0.5,0.7,1.1,1.1,2.8,1.2C415.8,613.7,415.8,613.9,415.7,614.1" />
-                                 <path id="path55" class="st0" fill="#FFFFFF;" d="M434.1,611c0,0-0.3,0.1-0.3,0c-0.6-2.9-2.8-4.7-4.8-4.7c-3.8,0-6.2,3.3-6.2,8
-                                    c0,4.7,2.1,8.1,5.8,8.1c2.2,0,4.4-1.8,5-4.5c0,0,0.4,0,0.3,0l-0.1,5.1c0,0-0.4,0-0.4,0c-0.1-0.7-0.5-1.1-1.3-0.8
-                                    c-1.1,0.4-2.3,0.8-3.5,0.8c-4.7,0-8.8-3.9-8.8-8.6c0-4.8,4-8.6,8.8-8.6c2.1,0,3.8,0.4,5.2,1.4L434.1,611" />
-                                 <path id="path57" class="st0" fill="#FFFFFF;" d="M446.9,612.5c0-3.7-1.4-6.3-4-6.3c-2.6,0-4,2.6-4,6.3c0,3.7,1.4,6.3,4,6.3
-                                    C445.5,618.8,446.9,616.2,446.9,612.5 M436.3,612.5c0-3.7,2.9-6.8,6.6-6.8s6.6,3.1,6.6,6.8c0,3.7-2.9,6.8-6.6,6.8
-                                    S436.3,616.2,436.3,612.5" />
-                                 <path id="path59" class="st0" fill="#FFFFFF;" d="M452,608.6c0.8,0,1.4-0.6,1.4-1.4s-0.6-1.4-1.4-1.4c-0.8,0-1.4,0.6-1.4,1.4S451.2,608.6,452,608.6
-                                    " />
-                              </g>
-                           </svg>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="curved-decoration z-index-3">
-              <svg width="100%" height="100%" class="bg-white-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
+            <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
 <g>
 </g>
 <g>
@@ -874,96 +694,7 @@
 </svg>
             </div>
          </section>
-         <section id="friends" class="text-center">
-            <!--Container-->
-            <div class="container spacer-double-lg">
-               <!--Row-->
-               <div class="row justify-content-center">
-                  <div class="col">
-                     <div class=" mb-5 pb-5">
-                        <h1 class="display-4 mb-0">Our Best Friends</h1>
-                        <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">We are lucky to have them in our side</p>
-                     </div>
-                  </div>
-               </div>
-               <!--End row-->
-               <!--Row-->
-               <div class="row justify-content-center">
-                  <div class="col-md-4 d-flex flex-column align-items-center">
-                     <div class="px-5 mb-4 pb-4 ">
-                        <div class="svg-mask-container px-3">
-                        <svg  width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
-                           <defs>
-                              <mask id="mask-middle-1">
-                                 <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
-                                    c-69.6423,69.0921-69.0838,181.9562,0.0139,251.5284l201.1888,202.5704c26.2076,26.3876,68.8445,26.5335,95.2321,0.3258
-                                    l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z"></path>
-                              </mask>
-                           </defs>
-                           <image mask="url(#mask-middle-1)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg"></image>
-                        </svg>
-                     </div>
-                        <div class=" mt-4">
-                           <h5 class="mb-0">Lisa Anderton</h5>
-                           <span class="small">Bridesmaid </span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4 d-flex flex-column align-items-center">
-                     <div class=" px-5 mb-4 pb-4 ">
-                        <div class="svg-mask-container px-3">
-                        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 607 532" enable-background="new 0 0 607 532" xml:space="preserve">
-                           <defs>
-                              <mask id="mask-middle-2">
-                                 <path fill="#FFFFFF" d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
-                                    c-69.6423,69.0921-69.0838,181.9562,0.0139,251.5284l201.1888,202.5704c26.2076,26.3876,68.8445,26.5335,95.2321,0.3258
-                                    l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z"></path>
-                              </mask>
-                           </defs>
-                           <image mask="url(#mask-middle-2)" width="607" height="532" xlink:href="<?php echo base_url() ?>assets/assets/img/mask-md.jpg"></image>
-                        </svg>
-                     </div>
-                        <div class=" mt-4">
-                           <h5 class="mb-0">Jimmy Nicholson</h5>
-                           <span class="small">Groomsman </span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!--End row-->
-               <div class="row justify-content-center">
-                  <div class="col-md-6">
-                     <div class="text-center">
-                        <div class="mx-auto icon-round mb-4 mb-md-4  bg-icon-primary">
-                           <svg class="icon-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70.8 102.2" enable-background="new 0 0 70.8 102.2;" xml:space="preserve">
-                              <path class="st0" opacity="0.3" d="M35.4,70.8c5.4,0,10-1.9,13.9-5.8c3.8-3.8,5.8-8.5,5.8-13.9V19.7c0-5.4-1.9-10-5.8-13.9C45.4,1.9,40.8,0,35.4,0
-                                 c-5.4,0-10,1.9-13.9,5.8c-3.8,3.8-5.8,8.5-5.8,13.9v31.5c0,5.4,1.9,10,5.8,13.9C25.4,68.8,30,70.8,35.4,70.8z" fill="#E25D5D" />
-                              <path class="st1" d="M69.6,40.5c-0.8-0.8-1.7-1.2-2.8-1.2c-1.1,0-2,0.4-2.8,1.2c-0.8,0.8-1.2,1.7-1.2,2.8v7.9
-                                 c0,7.6-2.7,14.1-8.1,19.4c-5.4,5.4-11.9,8.1-19.4,8.1c-7.6,0-14.1-2.7-19.4-8.1c-5.4-5.4-8.1-11.9-8.1-19.4v-7.9
-                                 c0-1.1-0.4-2-1.2-2.8c-0.8-0.8-1.7-1.2-2.8-1.2s-2,0.4-2.8,1.2C0.4,41.3,0,42.2,0,43.2v7.9C0,60.2,3,68,9.1,74.7
-                                 c6,6.7,13.5,10.5,22.4,11.5v8.1H15.7c-1.1,0-2,0.4-2.8,1.2c-0.8,0.8-1.2,1.7-1.2,2.8c0,1.1,0.4,2,1.2,2.8c0.8,0.8,1.7,1.2,2.8,1.2
-                                 H55c1.1,0,2-0.4,2.8-1.2c0.8-0.8,1.2-1.7,1.2-2.8c0-1.1-0.4-2-1.2-2.8c-0.8-0.8-1.7-1.2-2.8-1.2H39.3v-8.1c8.9-1,16.3-4.8,22.4-11.5
-                                 c6-6.7,9.1-14.6,9.1-23.6v-7.9C70.8,42.2,70.4,41.3,69.6,40.5z" fill="#E25D5D" />
-                           </svg>
-                        </div>
-                        <blockquote>Friendship... is not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything. </blockquote>
-                        <small class="text-uppercase font-weight-600 text-dark upper-letter-space">We love you Lisa and Jimmy</small>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!--End container-->
-            <div class="curved-decoration ">
-               <svg width="100%" height="100%" class="bg-secondary-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2560 168.6227" enable-background="new 0 0 2560 168.6227" xml:space="preserve">
-<g>
-</g>
-<g>
-   <path d="M2560,0c0,0-219.6543,165.951-730.788,124.0771c-383.3156-31.4028-827.2138-96.9514-1244.7139-96.9514
-      c-212.5106,0-439,3.5-584.4982,1.5844l0,139.9126h2560V0z"></path>
-</g>
-</svg>
-            </div>
-         </section>
+         
          <section id="rsvp" class="bg-secondary spacer-one-top-lg o-hidden ">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
@@ -971,51 +702,59 @@
                <div class="row justify-content-center">
                   <div class="col">
                      <div class=" mb-5 pb-5 text-center">
-                        <h1 class="display-4 ">Wedding Registry</h1>
-                        <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">The best present you could possibly give us </p>
+                        <h1 class="display-4 ">Konfirmasi Kehadiran</h1>
+                        <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8">Merupakan kehormatan bagi kami jika anda berkenan menghadiri</p>
                      </div>
                   </div>
                </div>
                <!--End row-->
                <div class="row justify-content-center">
-                  <div class="col-xl-5 col-lg-5 col-md-6">
-                     <form method="post">
+                  <div class="col-xl-6 col-lg-6 col-md-6">
+                     <!-- <form id="form-registry" > -->
                         <div class="form-group">
-                           <label >Your Name</label>
-                           <input name="name" type="text" class="form-control form-control-lg" placeholder="Your name">
+                           <label >Nama</label>
+                           <input name="nama" type="text" class="form-control form-control-lg" placeholder="Nama Anda" id="nama">
+                           <span id="nama_error" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                           <label>Email Address</label>
-                           <input name="email" type="email" class="form-control form-control-lg" placeholder="Your email">
+                           <label>Alamat</label>
+                           <input name="alamat" type="text" class="form-control form-control-lg" placeholder="Alamat Anda" id="alamat">
+                           <span id="alamat_error" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                           <label>Email</label>
+                           <input name="email" type="email" class="form-control form-control-lg" placeholder="Email anda" id="email">
+                           <span id="email_error" class="text-danger"></span>
                         </div>
                         <div class="row">
                            <div class="col-12">
                               <div class="form-group mb-1">
-                                 <label>Attending</label>
+                                 <label>Kehadiran</label>
                               </div>
                            </div>
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
-                                    <input type="radio" id="atttending-yes" name="atttending" class="custom-control-input">
-                                    <label class="custom-control-label" for="atttending-yes">Yes, I will be there</label>
+                                    <input type="radio" id="atttending-yes" name="atttending" class="custom-control-input" value="Y">
+                                    <label class="custom-control-label" for="atttending-yes">Ya, Saya akan datang</label>
                                  </div>
                               </div>
                            </div>
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
-                                    <input type="radio" id="atttending-no" name="atttending" class="custom-control-input">
-                                    <label class="custom-control-label" for="atttending-no">Sorry, I can't come</label>
+                                    <input type="radio" id="atttending-no" name="atttending" class="custom-control-input" value="N">
+                                    <label class="custom-control-label" for="atttending-no" >Maaf, saya tidak bisa datang</label>
                                  </div>
                               </div>
                            </div>
+                           <span id="kehadiran_error" class="text-danger"></span>
                         </div>
                         <div class="form-group text-center">
-                           <button class="btn btn-lg btn-block btn-primary" type="submit">Confirm registry</button>
-                           <small class="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation email.</small>
+                           <button class="btn btn-lg btn-block btn-primary" type="submit" id="submit-registry">Konfirmasi kehadiran</button>
+                           <!-- <small class="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation email.</small> -->
                         </div>
-                     </form>
+                     <!-- </form> -->
                   </div>
                </div>
             </div>
@@ -1261,6 +1000,8 @@
       <script src="<?php echo base_url() ?>assets/js/placeholders.min.js"></script>
       <script src="<?php echo base_url() ?>assets/js/instafeed.min.js"></script>
       <script src="<?php echo base_url() ?>assets/js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+      
 
       <script type="text/javascript" src="<?php echo base_url() ?>assets/scrolling-animation/jquery.parallax.js"></script>
       <script type="text/javascript">
@@ -1269,8 +1010,66 @@
             obj.children().addClass('animation animation_'+mode);
          }
       </script>
-      <!-- Google analytics -->
-      <!-- End google analytics -->
+      <script>
+         $( document ).ready(function() {
+            $('#submit-registry').click(function(){
+               // console.log('hahaha')
+
+               const rbs = document.querySelectorAll('input[name="atttending"]');
+               let selectedValue;
+               for (const rb of rbs) {
+                  if (rb.checked) {
+                     selectedValue = rb.value;
+                     break;
+                  }
+               }
+               
+               var nama = $('#nama').val()
+               var alamat = $('#alamat').val()
+               var email = $('#email').val()
+
+               $.ajax({ 
+                  url : "<?php echo site_url('wedding/konfirmasi_kehadiran')?>",
+                  type: "POST",
+                  dataType: "JSON",
+                  data : {nama:nama, alamat:alamat, email:email, kehadiran:selectedValue},
+                  success: function(data){
+                     if(data.status == false){
+                        if(data.errors.name_error != ''){
+                           $('#nama_error').html(data.errors.nama_error);
+                        }else{
+                           $('#nama_error').html('');
+                        }
+                        if(data.errors.email_error != ''){
+                           $('#email_error').html(data.errors.email_error);
+                        }else{
+                           $('#email_error').html('');
+                        }
+                        if(data.errors.alamat_error != ''){
+                           $('#alamat_error').html(data.errors.alamat_error);
+                        }else{
+                           $('#alamat_error').html('');
+                        }
+                        if(data.errors.kehadiran_error != ''){
+                           $('#kehadiran_error').html(data.errors.kehadiran_error);
+                        }else{
+                           $('#kehadiran_error').html('');
+                        }
+                     }else{
+                        swal(data.ket)
+                        $('#nama').val('')
+                        $('#alamat').val('')
+                        $('#email').val('')
+                        $('input[name="atttending"]').prop('checked',false);
+                     }
+
+                     console.log(data)
+                     // $('input[name="atttending"]').reset()
+                  }
+               })
+            })
+         })
+      </script>
    </body>
 </html>
 
