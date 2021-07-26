@@ -873,50 +873,26 @@
                <div class="row justify-content-center">
                   <div class="col">
                      <div class=" mb-5 pb-5 text-center">
-                        <h1 class="display-4 ">Where To Stay</h1>
-                        <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Accommodation - information below </p>
+                        <h1 class="display-4 ">Lokasi</h1>
+                        <!-- <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Accommodation - information below </p> -->
                      </div>
                   </div>
                </div>
                <!--End row-->
                <div class="row text-center">
-                  <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/1.jpg" alt="Image" class=" rounded img-fluid">
+                  <div class="col-md-12 ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.683728838511!2d107.6198273144352!3d-6.928355569741015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e87ffb3736a5%3A0x1fa0782bad367c26!2sWebhozz+Bandung!5e0!3m2!1sid!2sid!4v1512984270823" width="100%" height="600" frameborder="0" style="border:0; border-radius:100px" allowfullscreen></iframe>
                      <div class="badge-overlap">
-                        <span class="badge">Venue</span>
+                        <span class="badge">Lokasi</span>
                      </div>
                      <h5 class="mt-3 mb-3">Hôtel Monaco </h5>
                      <p>501 Geary Street
                         <br>San Franciscio, California
                         <br>(415) 292 - 0100
                      </p>
-                     <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
+                     <!-- <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a> -->
                   </div>
-                  <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/2.jpg" alt="" class="rounded img-fluid">
-                     <div class="badge-overlap">
-                        <span class="badge">Accommodation</span>
-                     </div>
-                     <h5 class="mt-3 mb-3">Villa Nikko</h5>
-                     <p>222 Mason Street
-                        <br>San Franciscio, California
-                        <br>(415) 394 - 1111
-                     </p>
-                     <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span></a>
-                  </div>
-                  <div class="col-md-4 mb-3 mb-md-0 ">
-                     <img src="<?php echo base_url() ?>assets/assets/img/accommodation/3.jpg" alt="" class="rounded img-fluid">
-                     <div class="badge-overlap ">
-                        <span class="badge">After Party</span>
-                     </div>
-                     <h5 class="mt-3 mb-3">California Party</h5>
-                     <p>670 Ocean Ave
-                        <br>Santa Monica
-                        <br>(415) 394 - 1111
-                     </p>
-                     <a href="#" class="hover-arrow">Get directions <span class="fa fa-arrow-right" ></span>
-                     </a>
-                  </div>
+                  
                </div>
             </div>
             <!--End container-->
