@@ -748,8 +748,9 @@
                                  </div>
                               </div>
                            </div>
-                           <span id="kehadiran_error" class="text-danger"></span>
+                           
                         </div>
+                        <span id="kehadiran_error" class="text-danger"></span>
                         <div class="form-group text-center">
                            <button class="btn btn-lg btn-block btn-primary" type="submit" id="submit-registry">Konfirmasi kehadiran</button>
                            <!-- <small class="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation email.</small> -->
