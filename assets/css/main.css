@@ -118,6 +118,9 @@ Created by : mutationthemes
 /*End site wrapper*/
 
 /* Hero Section*/
+.default{
+    opacity:0
+}
 
 .header {
     position: relative;
@@ -725,7 +728,6 @@ ul.instafeed-list li {
     width: 100%;
     z-index: 1040;
     background-color: transparent;
-    opacity: 1;
 }
 .header .logo-light {
     display: block;
@@ -744,10 +746,9 @@ ul.instafeed-list li {
     top: 0;
     width: 100%;
     z-index: 999;
-    /* opacity : 1; */
 }
 .header .logo-dark {
-    display: none;
+    display: none
 }
 .header.switched-header .logo-dark{
     display: block;
@@ -758,7 +759,6 @@ ul.instafeed-list li {
 
 .header.switched-header .navbar-expand-lg .navbar-nav .nav-link{
   color: #7c7e7f;
-  
 }
 .navbar-expand-lg {
     -ms-flex-wrap: wrap;

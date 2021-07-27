@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Css -->
       <!-- animation scroll -->
-      <link href="<?php echo base_url() ?>assets/scrolling-animation/jquery.parallax.css" type="text/css" rel="stylesheet">
+      <!-- <link href="<?php //echo base_url() ?>assets/scrolling-animation/jquery.parallax.css" type="text/css" rel="stylesheet"> -->
       <!-- Css bawaan -->
       <link href="<?php echo base_url() ?>assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
       <link href="<?php echo base_url() ?>assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
@@ -17,10 +17,12 @@
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
       <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    </head>
 
 
-   <body id="animasi">
+   <body >
       <!-- Preloader -->
       <div class="loader">
          <!-- Preloader inner -->
@@ -35,7 +37,7 @@
       <!--Wrapper-->
       <div  class="wrapper">
          <!--Header-->
-         <header class="header default" >
+         <header class="header switched-header" >
             <div class="header-section">
                <!--Container-->
                <div  class="container-fluid" >
@@ -65,8 +67,9 @@
             </div>
          </header>
          <!--End header-->
+         <!-- <div id="animasi"> -->
          <!--Hero section-->
-         <section class="animasi_1 gradient-overlay gradient-overlay-dark" data-rate="0.6" data-effect="zoom">
+         <section class="gradient-overlay gradient-overlay-dark" data-aos="zoom-in">
             <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/1.jpg" alt="">
             <div class="container" >
                <!--row-->
@@ -94,7 +97,7 @@
          </section>
          <!--End hero section-->
          <!--Date section-->
-         <section id="resto" >
+         <section id="resto" data-aos="fade-down">
             <div class="container spacer-double-lg" >
                <div class="row justify-content-lg-between align-items-center" data-rate="0.2" data-effect="zoom" data-func="custom_show">
                   <div class="col-md-6 mb-5 mb-md-0">
@@ -153,9 +156,9 @@
             </div>
          </section>
          <!--End date section-->
-         <section id="story" class="bg-secondary spacer-one-top-lg">
+         <section id="story" class="bg-secondary spacer-one-top-lg" data-aos="flip-up">
             <!--Container-->
-            <div class="container spacer-one-bottom-lg" id="animasi_3">
+            <div class="container spacer-one-bottom-lg" >
                <!--Row-->
                <div class="row justify-content-center">
                   <div class="col">
@@ -299,7 +302,7 @@
 </svg>
             </div>
          </section>
-         <section id="wedding" class="spacer-one-top-lg" >
+         <section id="wedding" class="spacer-one-top-lg" data-aos="fade-left">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
                <!--Row-->
@@ -566,7 +569,7 @@
 </svg>
             </div>
          </section>
-         <section id="gallery" class="bg-secondary ">
+         <section id="gallery" class="bg-secondary " data-aos="fade-right">
             <div class="container spacer-double-lg">
                <div class="col-lg-11 mx-lg-auto">
                   <div class="row justify-content-center card-gutters">
@@ -695,7 +698,7 @@
             </div>
          </section>
          
-         <section id="rsvp" class="bg-secondary spacer-one-top-lg o-hidden ">
+         <section id="rsvp" class="bg-secondary spacer-one-top-lg o-hidden " data-aos="fade-left">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
                <!--Row-->
@@ -866,7 +869,7 @@
                </div>
             </div>
          </section>
-         <section id="location" class=" spacer-one-top-lg ">
+         <section id="location" class=" spacer-one-top-lg " data-aos="zoom-out">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
                <!--Row-->
@@ -898,7 +901,7 @@
             <!--End container-->
          </section>
          <!--Hero section-->
-         <section class="gradient-overlay ">
+         <section class="gradient-overlay " data-aos="slide-up">
             <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/2.jpg" alt="">
             <div class="container">
                <!--row-->
@@ -930,6 +933,8 @@
 </svg>
             </div>
          </section>
+
+                  <!-- </div> -->
          <!--End hero section-->
          <footer class="spacer-double-lg bg-secondary">
             <div class="container">
@@ -979,14 +984,20 @@
       <script src="<?php echo base_url() ?>assets/js/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
       
-
-      <script type="text/javascript" src="<?php echo base_url() ?>assets/scrolling-animation/jquery.parallax.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init({
+            duration:1200
+         });
+      </script>
+      
+      <!-- <script type="text/javascript" src="<?php //echo base_url() ?>assets/scrolling-animation/jquery.parallax.js"></script>
       <script type="text/javascript">
-         $('#animasi').parallax({mode:1});
+         $('.animasi').parallax({mode:1});
          function custom_show(obj, mode) {
             obj.children().addClass('animation animation_'+mode);
          }
-      </script>
+      </script> -->
       <script>
          $( document ).ready(function() {
             $('#submit-registry').click(function(){
@@ -1040,8 +1051,6 @@
                         $('input[name="atttending"]').prop('checked',false);
                      }
 
-                     console.log(data)
-                     // $('input[name="atttending"]').reset()
                   }
                })
             })

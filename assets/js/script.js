@@ -27,6 +27,7 @@
         } else if ($(this).scrollTop() <= pos.top + 50 && header.hasClass('switched-header')) {
             header.fadeOut('fast', function() {
                 $(this).removeClass('switched-header').addClass('default').fadeIn(100);
+                // $("p").css("background-color");
                  $('.scroll-to-top').removeClass('active');
             });
         }
