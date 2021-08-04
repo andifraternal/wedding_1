@@ -91,19 +91,6 @@
 
 
 
-// Instagram feed setup
-
-    var instaFeed = new Instafeed({
-        get: 'user',
-        userId: '13339175373',
-        accessToken: '13339175373.95cbc68.b63a06b452874b6e8384eebc29a005ce',
-        limit: 5,
-        resolution: 'standard_resolution',
-        template: '<li><a class="hover-effect rounded-circle" target="_blank" href="{{link}}"><span class="hover-effect-container"><span class="hover-effect-icon hover-effect-icon-small"><span class="fa fa-heart hover-effect-icon-inner"></span></span></span></span><img class=" mw-100" src="{{image}}" /></a></li>'
-    });
-    instaFeed.run();
-
-
 
 
   // Countdown setup

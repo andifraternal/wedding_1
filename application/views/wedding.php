@@ -23,6 +23,8 @@
 
 
    <body >
+   
+
       <!-- Preloader -->
       <div class="loader">
          <!-- Preloader inner -->
@@ -68,6 +70,7 @@
          </header>
          <!--End header-->
          <!-- <div id="animasi"> -->
+         <embed src="<?php echo base_url() ?>assets/music/Marry-Your-Daughter-Brian-McKnight.mp3" loop="true" autostart="true" width="2" height="0">
          <!--Hero section-->
          <section class="gradient-overlay gradient-overlay-dark" data-aos="zoom-in">
             <img class="bg-image" src="<?php echo base_url() ?>assets/assets/img/1.jpg" alt="">
@@ -980,7 +983,7 @@
       <script src="<?php echo base_url() ?>assets/js/jquery.magnific-popup.min.js"></script>
       <script src="<?php echo base_url() ?>assets/js/jquery.countdown.min.js"></script>
       <script src="<?php echo base_url() ?>assets/js/placeholders.min.js"></script>
-      <script src="<?php echo base_url() ?>assets/js/instafeed.min.js"></script>
+      <!-- <script src="<?php //echo base_url() ?>assets/js/instafeed.min.js"></script> -->
       <script src="<?php echo base_url() ?>assets/js/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
       
